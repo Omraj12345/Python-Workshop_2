@@ -1,6 +1,6 @@
 import ipywidgets as widgets
 from IPython.display import display
-name = widgets.Text(description='Name')
+name = widgets.Text(description='Name')  #this will print name.
 father = widgets.Text(description="Father's name")
 gender = widgets.RadioButtons(options=['Male', 'Female'], description='Gender')
 adhaar = widgets.Checkbox(description='Do you have Adhar card?')
